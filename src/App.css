@@ -1,0 +1,30 @@
+/* Fonts
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Oswald', sans-serif;
+*/
+
+.App {
+  background-color: black;
+  color: white;
+}
+
+.title {
+  margin-top: 20px; 
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 40px;
+}
+
+.subtitle {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  border-bottom: 8px solid #990000;
+  padding: 0px;
+  margin: 0px; 
+
+}
+
+.backgroundImage {
+  background: url(gravel.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+}
