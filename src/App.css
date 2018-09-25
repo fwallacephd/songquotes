@@ -3,7 +3,7 @@ font-family: 'Ubuntu', sans-serif;
 font-family: 'Oswald', sans-serif;
 */
 
-.App {
+.heading {
   background-color: black;
   color: white;
 }
@@ -14,17 +14,42 @@ font-family: 'Oswald', sans-serif;
   font-size: 40px;
 }
 
+.heading {
+  border-bottom: 8px solid #990000;
+}
+
 .subtitle {
   font-family: 'Oswald', sans-serif;
   font-size: 40px;
-  border-bottom: 8px solid #990000;
   padding: 0px;
   margin: 0px; 
 
 }
 
-.backgroundImage {
-  background: url(gravel.png);
-  background-repeat: no-repeat;
+.songInformation, .songButton {
+  background: url(./Song/gravel.png);
+  background-repeat: repeat;
   background-size: auto;
+}
+
+.buttonRandom {
+  margin: 10px; 
+}
+
+.artist, .song, .album, .quote {
+  font-family: 'Oswald', sans-serif;
+  color:  #990000;
+  font-size: 35px;
+}
+
+.artistName, .songName, .albumName, .quoteName {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 20px; 
+}
+
+.songInformation {
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+  font-size: 35px;
+  border-bottom: 8px solid #990000;
 }
